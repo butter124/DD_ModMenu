@@ -1,0 +1,7 @@
+.vs
+*.suo
+*.user
+Release/*
+Debug/*
+DDModMenuByButter/Release/*
+DDModMenuByButter/Debug/*
