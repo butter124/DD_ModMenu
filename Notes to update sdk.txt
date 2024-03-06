@@ -20,13 +20,9 @@ MODULEINFO miGame = GetModuleInfo(NULL);
 //#define GObjects			0x0
 //#define GNames			0x0
 
-//
 DWORD GObjects = *(unsigned long*)(FindPattern((unsigned long)miGame.lpBaseOfDll, miGame.SizeOfImage, (unsigned char*)GObjects_Pattern, (char*)GObjects_Mask) + GObjects_Offset);
-//
-//
-//
 DWORD GNames = *(unsigned long*)(FindPattern((unsigned long)miGame.lpBaseOfDll, miGame.SizeOfImage, (unsigned char*)GNames_Pattern, (char*)GNames_Mask) + GNames_Offset);
-//
+
 
 
 Core_classes.h
